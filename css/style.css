@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('../assets/header-background.jpeg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+#header .banner-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#header nav{
+    position: fixed;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+nav ul{
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(0,-50%);
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin: 0 15px;
+}
+
+#header nav img{
+    width: 200px;
+}
+
+#header .banner-text a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 25px;
+    font-weight: 300px;
+    padding: 5px 15px;
+}
+
+#header .banner-text h2{
+    margin-bottom: 30px;
+}
+
+#header .banner-text a:hover{
+    background-color: beige;
+    color: black;
+    transition: background-color 1s;
+}
